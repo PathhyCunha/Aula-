@@ -1,0 +1,53 @@
+body{
+    font-family: lucida sans,sans-serif;
+    background-color: rgb(194, 146, 239);
+}
+div01{
+    border: 20px solid transparent;
+    font-size: 20px;
+    background-color: rgb(222, 65, 250);
+    border-image: url("transferir.jpg")25 round
+    text-align:right;
+    
+
+   
+}
+.menuOculto{
+    height: 100%;
+    width: 300;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: rgb(179, 107, 246);
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+.menuOculto a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    display: block;
+    transition: 0,3s;
+}
+.menuOculto a:hover{
+    color: black;
+}
+.btnFechar{
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#principal{
+    padding: 16px;
+    transition: margin-left 0,3s;
+}
+
+@media screen and(max-height:450px){
+  .menuOculto{padding-top: 15px;}
+  .menuOculto a{font-size: 18;}
+}

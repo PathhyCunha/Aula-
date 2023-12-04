@@ -1,0 +1,60 @@
+body{
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(212, 169, 252);
+    
+    
+}
+#div01{
+    
+    border: 20px solid transparent;
+    font-size: 20px;
+    background-color: rgb(222, 65, 250);
+    border-image: url("transferir.jpg")25 round
+}
+
+
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    text-decoration-color: blueviolet;
+ 
+nav#menu {
+    display: block;
+
+
+    }
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase; 
+    position: absolute;
+    top:130px;
+    left: 930px;
+
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(245, 242, 247);
+    padding: 10px;
+    margin: 3px;
+    transition: background-color1s;
+}
+nav#menu li:hover{
+    background-color: rgb(194, 142, 246);
+}
+nav#menu a{
+    text-decoration: none;
+
+}
+
+
+img{
+    border-radius: 5px; 
+    border-radius: 50%;
+    width: 450px;
+    alt: Pessoa organizando sua agenda;
+    position: absolute;
+    top:250px;
+    left: 730px;
+}

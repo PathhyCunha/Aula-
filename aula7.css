@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+div01{
+    border: 20px solid transparent;
+    font-size: 20px;
+    background-color: rgb(222, 65, 250);
+    border-image: url("transferir.jpg")25 round
+    text-align:right;
+     
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;/*Define duas colunas:uma com 1 parte e outra com 3 partes*/
+    grid-template-rows: auto 1fr auto;/*Define três linhas: uma para cabeçalho, uma para o conteúdo e uma para o rodapé*/
+    grid-template-areas: 
+    "header header"
+    "sidebar main-content"
+    "footer footer";/*Define as áreas para cada parte do layout*/
+    min-height: 100vh;/*DEFINE A ALTURA MINIMA DA TELA*/
+}
+.header,.sidebar,.main-content,.footer{
+    position: relative;
+    padding: 20px;
+    border:1px solid #f351ee
+
+
+}
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main-content{
+    grid-area: main-content;
+}
+.footer{
+    grid-area: footer;
+}

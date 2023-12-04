@@ -1,0 +1,13 @@
+body{
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(212, 169, 252);
+
+}
+#div01{
+border: 20px solid transparent;
+font-size: 20px;
+background-color: rgb(222, 65, 250);
+border-image: url("transferir.jpg")25 round
+}
+table
